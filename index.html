@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo-14</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Viage Seguro</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#viagem" class="nav-link">Viagem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#acomod" class="nav-link">Acomodação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/frog-897419.jpg" alt="viaggem">
+                </div>
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/trip-2203682.jpg" alt="vis">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/woman-6010056.jpg" alt="vissf">
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+            <div class="pt-5 pb-5" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <H2 class="section-title">Sobre</H2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis quisquam deleniti a voluptatum doloribus ea ullam maiores recusandae distinctio dolorem provident commodi, vero consectetur officiis quas eaque illo ratione?</p>
+                            <h2 class="section-title">Guia</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem qui ratione maiores, ad perferendis a? Sunt eum, labore quis mollitia, reprehenderit quia ipsa doloremque fugiat reiciendis, exercitationem accusantium. Sapiente.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./img/90cf860d8e3548fdb4808f676ee3e05d.webp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="viagem">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Viagem</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-4">
+                        <img src="./img/glacier-583419.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            <i class="bi bi-airplane"></i>
+                            Argentina</h3>
+                        <p>A Argentina é um país da América do Sul com uma área extensa que abrange montanhas dos Andes, lagos glaciais e pradarias nos Pampas, ocupadas tradicionalmente por seu famoso gado. O país é conhecido também por sua dança e sua música, o tango.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/venice-3183168.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            <i class="bi bi-airplane"></i>
+                            Italia</h3>
+                        <p>A Itália, país europeu com uma longa costa mediterrânea, deixou uma marca poderosa na culinária e na cultura ocidentais. A capital, Roma, é sede do Vaticano e abriga obras de arte monumentais e ruínas antigas.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/arch-6356637.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            <i class="bi bi-airplane"></i>
+                            França</h3>
+                        <p>Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acomod">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title mb-4">Atividades e Acomodação</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-acomod">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acomodacao" class="fw-bold text-start nav-link active">Acomodação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#atividades" class="fw-bold text-start nav-link">Atividades</button>
+                        </nav>
+                    </aside>    
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="acomodacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/accommdation-992296.jpg" class="d-block w-100">
+                                        <h5 class="mt-2">Quarto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laboriosam quo saepe fugit! </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/bed-3786264.jpg" class="d-block w-100">
+                                        <h5 class="mt-2">Quarto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laboriosam quo saepe fugit! </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="atividades">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/man-498473.jpg" class="d-block w-100">
+                                        <h5 class="mt-2">Atividade 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laboriosam quo saepe fugit! </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/bonfire-1867275.jpg" class="d-block w-100">
+                                        <h5 class="mt-2">Atividade 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laboriosam quo saepe fugit! </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu Nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu E-mail</label>
+                                <input type="text" id="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold">Seu Telefone</label>
+                                <input type="text" id="telefone" name="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua Mensagem </label>
+                                <textarea id="mensagem" class="form-control" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4">Redes Sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4">Endereço</h3>
+                                <p>
+                                    Rua texte exemplo nº 000, Bairro Bootstrap, Rio Grande do Sul-RS
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="./Bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery-3.6.3.min.js"></script>
+<script src="/js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="/js/messages_pt_BR.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#telefone').mask('(00) 00000-0000')
+
+        $('form').validate ({
+            rules: {
+                nome: {
+                    required: true
+                },
+                telefone: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                }
+            }
+        }) 
+    })
+</script>
+</body>
+</html>

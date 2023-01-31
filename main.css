@@ -1,0 +1,53 @@
+
+.navbar {
+    background-color: rgba(226, 226, 226, 0.616);
+}
+
+.nav .nav-link {
+color: rgb(141, 141, 141);
+}
+
+.section-title {
+    font-family: ABeeZee;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: #42b72a;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    body {
+        max-width: 78%;
+    }
+    #sobre img {
+        max-width: 100%;
+    }
+    #viagem p {
+        max-width: 80%;
+        margin-left: 30px;
+    }
+    #viagem img {
+        max-width: 80%;
+        margin-left: 32px;
+    }
+    #viagem {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(1100px, 1fr));
+    }
+button {
+        margin-bottom: 30px;
+    }
+    }
